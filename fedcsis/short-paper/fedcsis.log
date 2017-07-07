@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.6.18)  8 JUL 2017 01:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.6.18)  8 JUL 2017 02:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -295,18 +295,18 @@ l.24 ...mand\NAT@force@numbers{}\NAT@force@numbers
 )
 \openout1 = `fedcsis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
 
 -- Lines per column: 56 (exact).
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -373,26 +373,20 @@ e
 ))
 \c@lstlisting=\count129
 
-** ATTENTION: Overriding command lockouts (line 73).
+** ATTENTION: Overriding command lockouts (line 74).
 <f.pdf, id=1, 237.88875pt x 335.00156pt>
 File: f.pdf Graphic file (type pdf)
  <use f.pdf>
-Package pdftex.def Info: f.pdf used on input line 87.
+Package pdftex.def Info: f.pdf used on input line 88.
 (pdftex.def)             Requested size: 189.0pt x 266.1665pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 93.
+(Font)              <7> on input line 94.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 93.
+(Font)              <5> on input line 94.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
@@ -400,25 +394,25 @@ Missing character: There is no ô in font ptmr7t!
 <e1.pdf, id=20, 473.77pt x 326.21875pt>
 File: e1.pdf Graphic file (type pdf)
  <use e1.pdf>
-Package pdftex.def Info: e1.pdf used on input line 150.
+Package pdftex.def Info: e1.pdf used on input line 151.
 (pdftex.def)             Requested size: 189.0pt x 130.13673pt.
 
 <e3.pdf, id=21, 473.77pt x 326.21875pt>
 File: e3.pdf Graphic file (type pdf)
  <use e3.pdf>
-Package pdftex.def Info: e3.pdf used on input line 155.
+Package pdftex.def Info: e3.pdf used on input line 156.
 (pdftex.def)             Requested size: 189.0pt x 130.13673pt.
 
 <e4.pdf, id=22, 473.77pt x 326.21875pt>
 File: e4.pdf Graphic file (type pdf)
  <use e4.pdf>
-Package pdftex.def Info: e4.pdf used on input line 160.
+Package pdftex.def Info: e4.pdf used on input line 161.
 (pdftex.def)             Requested size: 189.0pt x 130.13673pt.
 
 <e2.pdf, id=23, 473.77pt x 326.21875pt>
 File: e2.pdf Graphic file (type pdf)
  <use e2.pdf>
-Package pdftex.def Info: e2.pdf used on input line 165.
+Package pdftex.def Info: e2.pdf used on input line 166.
 (pdftex.def)             Requested size: 189.0pt x 130.13673pt.
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
@@ -463,10 +457,10 @@ Before submitting the final camera ready copy, remember to:
 
 [4] (./fedcsis.aux) ) 
 Here is how much of TeX's memory you used:
- 4865 strings out of 493013
- 71402 string characters out of 6139317
+ 4864 strings out of 493013
+ 71383 string characters out of 6139317
  164902 words of memory out of 5000000
- 8351 multiletter control sequences out of 15000+600000
+ 8350 multiletter control sequences out of 15000+600000
  35152 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,7n,32p,969b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -480,7 +474,7 @@ m/cmmi7.600pk> </home/sh/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmmi10.60
 hare/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/t
 ype1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on fedcsis.pdf (4 pages, 217675 bytes).
+Output written on fedcsis.pdf (4 pages, 217670 bytes).
 PDF statistics:
  136 PDF objects out of 1000 (max. 8388607)
  72 compressed objects within 1 object stream

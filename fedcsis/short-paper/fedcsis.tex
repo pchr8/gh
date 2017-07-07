@@ -23,6 +23,7 @@
 \usepackage{multirow}
 % TODO
 \usepackage{natbib}
+\setcitestyle{square}
 
 %
 %
@@ -70,10 +71,10 @@ In this paper, we discuss the generation of symbols (and alphabets) based on spe
 
 \section{Introduction}
 %
-\IEEEoverridecommandlockouts\IEEEPARstart{T}{he need} to create writing systems has been with humankind since the dawn of time, and they always evolved based on the concrete challenges the writers faced. For example, the angular shapes of the runes are very convenient to be carved in wood or stone~\cite{williams1996origin}. The rapid increase of available mediums in the recent decades determined the need for many more alphabets, for very different use cases, such as controlling computers using touchpads, mouse gestures or eye tracking cameras.
+\IEEEoverridecommandlockouts\IEEEPARstart{T}{he need} to create writing systems has been with humankind since the dawn of time, and they always evolved based on the concrete challenges the writers faced. For example, the angular shapes of the runes are very convenient to be carved in wood or stone~\citep{williams1996origin}. The rapid increase of available mediums in the recent decades determined the need for many more alphabets, for very different use cases, such as controlling computers using touchpads, mouse gestures or eye tracking cameras.
 
 We started researching this topic by attempting to manually create a system for writing shorthand (simplified writing optimized for writing speed, not readability), and then attempting to automate the process.	 Many approaches for the manual creation of alphabets have been used, but we are not familiar with a formalized system for their generation. Manually created alphabets are usually suboptimal. For example, it might be argued that the Latin alphabet favours the writer more than the
-reader, since it evolved under the constraints of pen and paper, and those constraints are much less relevant in the computer age. Fonts which try to overcome this limitation exist.~\cite{dotsies} In a similar fashion, many systems do not use the possibilities given by the medium or context (for example multi-touch gestures), electing to base themselves on already existing (and, therefore, familiar ot the user, but suboptimal context-wise) symbols. A formalized framework or software application capable of gathering requirements, generating symbols, grading them on a set of criteria and mapping them to meanings may be able to overcome many of those limitations.
+reader, since it evolved under the constraints of pen and paper, and those constraints are much less relevant in the computer age. Fonts which try to overcome this limitation exist~\citep{dotsies}. In a similar fashion, many systems do not use the possibilities given by the medium or context (for example multi-touch gestures), electing to base themselves on already existing (and, therefore, familiar ot the user, but suboptimal context-wise) symbols. A formalized framework or software application capable of gathering requirements, generating symbols, grading them on a set of criteria and mapping them to meanings may be able to overcome many of those limitations.
 
 In this paper such a framework is suggested, and a proof of concept using some of the proposed techniques is demonstrated (using the example of generating glyphs for a shorthand system, without mapping them to actual symbols). The analysis of data that is to be conveyed, the generation of symbols, their grading according to certain criteria and the analysis of resulting alphabets is discussed.
 
@@ -118,10 +119,10 @@ For our example of creating a shorthand system (trivial use case), the following
         \end{enumerate}
         \item Writing sentences:
         \begin{enumerate}
-                \item are there any often-repeating words or groups of words which, when replaced by a shorter, even if complex, symbol, would lead to a gain in time? (“The” as a typical example).
+                \item are there any often-repeating words or groups of words which, when replaced by a shorter, even if complex, symbol, would lead to a gain in time? ("The" as a typical example).
         \end{enumerate}
         \item On a semantic level: Are there any grammatical categories or modalities that are represented in natural text with many letters, that when replaced by a single glyph or a modifier, would lead to a gain in time? (tenses, number, gender, hypotheticals, ...). For example, in our manually generated shorthand system, time, modality, and person were encoded via a single glyph consisting of three parts, which allowed to considerably shorten groups like "they would have been able to".
-        \item On an information theoretical level: How much redundancy is needed? How many errors in transcription can happen before the message becomes either unreadable or its meaning is distorted?  (Natural languages  are redundant via multiple mechanisms, notably via agreement in person, gender, case...~\cite{bussmann2006routledge} Errors or interferences will still allow to understand what’s being said, up to a certain point. This may not be the case for constructed writing systems, if they are built with low redundancy).~\cite{reza1961introduction} 
+        \item On an information theoretical level: How much redundancy is needed? How many errors in transcription can happen before the message becomes either unreadable or its meaning is distorted?  (Natural languages  are redundant via multiple mechanisms, notably via agreement in person, gender, case...~\citep{bussmann2006routledge} Errors or interferences will still allow to understand what’s being said, up to a certain point. This may not be the case for constructed writing systems, if they are built with low redundancy)~\citep{reza1961introduction}.
 \end{enumerate}
 
 There may be different ways to quantify the above. One way would be analyzing source texts written by the person (or representative sample of people) who will be using the system, to fit it to their speech patterns and word use. At the end, the following basic information should be available:
@@ -178,7 +179,7 @@ The reasons for defining \(c\) as we did are manifold, one of them being that a 
 Generally, quantifying fitness of a particular glyph might make use of quite a lot of variables, for example:
 \begin{itemize}
         \item number (percentage?) of strokes which are known to be easy or hard to write (writing a stroke from upper-left to bottom-right might be harder for some people, for example, due to the right slant in their handwriting). 
-        \item how easy is a stroke to remember. This might not map perfectly to simplicity, due, for example, to characteristics of human memory like the Von Restorff effect~\cite{hunt1995subtlety}
+        \item how easy is a stroke to remember. This might not map perfectly to simplicity, due, for example, to characteristics of human memory like the Von Restorff effect~\citep{hunt1995subtlety}
 \end{itemize}
 	The subjective reactions to signs might vary between people, differences due to age, cultural and/or language background are probable. This might be a promising area to study with the help of machine learning. Data like "Symbols similar to X perform poorly with demographic Y" would be valuable for creating alphabets when something about the probable users is known (which alphabet or writing system is more familiar to them? How much new information are they probably able to learn and for how much they are able to retain it? Did they learn thousands of hieroglyphics since they were children? How motivated are they?). 
 
