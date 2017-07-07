@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.6.18)  8 JUL 2017 01:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.6.18)  8 JUL 2017 01:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**fedcsis.tex
-(./fedcsis.tex
+**short-fedcsis.tex
+(./short-fedcsis.tex
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (./IEEEtran.cls
@@ -278,7 +278,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip52
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count122
-) (./fedcsis.aux
+) (./short-fedcsis.aux
 
 ! Package natbib Error: Bibliography not compatible with author-year citations.
 
@@ -293,7 +293,7 @@ l.24 ...mand\NAT@force@numbers{}\NAT@force@numbers
                                                   
 ? 
 )
-\openout1 = `fedcsis.aux'.
+\openout1 = `short-fedcsis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
@@ -386,7 +386,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
+ <./f.pdf>]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
@@ -396,37 +396,29 @@ Missing character: There is no ù in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
- [2 <./f.pdf>]
-<e1.pdf, id=20, 473.77pt x 326.21875pt>
+ <e1.pdf, id=12, 473.77pt x 326.21875pt>
 File: e1.pdf Graphic file (type pdf)
- <use e1.pdf>
-Package pdftex.def Info: e1.pdf used on input line 150.
-(pdftex.def)             Requested size: 189.0pt x 130.13673pt.
 
-<e3.pdf, id=21, 473.77pt x 326.21875pt>
+<use e1.pdf>
+Package pdftex.def Info: e1.pdf used on input line 149.
+(pdftex.def)             Requested size: 189.0pt x 130.13673pt.
+ <e3.pdf, id=13, 473.77pt x 326.21875pt>
 File: e3.pdf Graphic file (type pdf)
  <use e3.pdf>
-Package pdftex.def Info: e3.pdf used on input line 155.
+Package pdftex.def Info: e3.pdf used on input line 154.
 (pdftex.def)             Requested size: 189.0pt x 130.13673pt.
 
-<e4.pdf, id=22, 473.77pt x 326.21875pt>
-File: e4.pdf Graphic file (type pdf)
- <use e4.pdf>
-Package pdftex.def Info: e4.pdf used on input line 160.
-(pdftex.def)             Requested size: 189.0pt x 130.13673pt.
-
-<e2.pdf, id=23, 473.77pt x 326.21875pt>
+<e2.pdf, id=14, 473.77pt x 326.21875pt>
 File: e2.pdf Graphic file (type pdf)
  <use e2.pdf>
-Package pdftex.def Info: e2.pdf used on input line 165.
+Package pdftex.def Info: e2.pdf used on input line 159.
 (pdftex.def)             Requested size: 189.0pt x 130.13673pt.
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
- [3 <./e4.pdf> <./e2.pdf> <./e1.pdf> <./e3.pdf>] (./fedcsis.bbl
+
+
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
+[2] [3 <./e1.pdf> <./e3.pdf> <./e2.pdf>] (./short-fedcsis.bbl
 Underfull \hbox (badness 1609) in paragraph at lines 38--40
 []\OT1/ptm/m/n/10 F. M. Reza, \OT1/ptm/m/it/10 An in-tro-duc-tion to in-for-ma-
 tion the-ory\OT1/ptm/m/n/10 .
@@ -461,29 +453,29 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4] (./fedcsis.aux) ) 
+[4] (./short-fedcsis.aux) ) 
 Here is how much of TeX's memory you used:
- 4865 strings out of 493013
- 71402 string characters out of 6139317
- 164902 words of memory out of 5000000
- 8351 multiletter control sequences out of 15000+600000
+ 4860 strings out of 493013
+ 71419 string characters out of 6139317
+ 153736 words of memory out of 5000000
+ 8347 multiletter control sequences out of 15000+600000
  35152 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,7n,32p,969b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} </usr/
-share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> </usr/share/texmf-di
-st/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk> </home/sh/.texlive/texmf-var/fon
-ts/pk/ljfour/public/cm/cmsy10.600pk> </home/sh/.texlive/texmf-var/fonts/pk/ljfo
-ur/public/cm/cmr10.600pk> </home/sh/.texlive/texmf-var/fonts/pk/ljfour/public/c
-m/cmmi7.600pk> </home/sh/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmmi10.60
-0pk> </home/sh/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmsy7.600pk></usr/s
-hare/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/t
-ype1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.
-pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on fedcsis.pdf (4 pages, 217675 bytes).
+ 39i,7n,32p,766b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} 
+</usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> </usr/share/te
+xmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk> </home/sh/.texlive/texmf-v
+ar/fonts/pk/ljfour/public/cm/cmsy10.600pk> </home/sh/.texlive/texmf-var/fonts/p
+k/ljfour/public/cm/cmr10.600pk> </home/sh/.texlive/texmf-var/fonts/pk/ljfour/pu
+blic/cm/cmmi7.600pk> </home/sh/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmm
+i10.600pk> </home/sh/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmsy7.600pk><
+/usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/f
+onts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/u
+tmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on short-fedcsis.pdf (4 pages, 189600 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 127 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
