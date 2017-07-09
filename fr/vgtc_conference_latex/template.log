@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.6.18)  9 JUL 2017 20:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.6.18)  9 JUL 2017 21:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -415,28 +415,28 @@ Package hyperref Info: Option `linktocpage' set `true' on input line 68.
 (./template.aux)
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 125.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 125.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 127.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 127.
 
  (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 125.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 127.
 
 
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1ptm.fd
@@ -471,7 +471,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 125.
+LaTeX Info: Redefining \microtypecontext on input line 127.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -487,7 +487,7 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 \big@size=\dimen140
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring OFF on input line 125.
+Package hyperref Info: Link coloring OFF on input line 127.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -497,15 +497,15 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count117
 )
-LaTeX Info: Redefining \ref on input line 125.
-LaTeX Info: Redefining \pageref on input line 125.
-LaTeX Info: Redefining \nameref on input line 125.
+LaTeX Info: Redefining \ref on input line 127.
+LaTeX Info: Redefining \pageref on input line 127.
+LaTeX Info: Redefining \nameref on input line 127.
 
 (./template.out) (./template.out)
 \@outlinefile=\write3
 \openout3 = `template.out'.
 
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 134.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 136.
 
 
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1phv.fd
@@ -516,9 +516,9 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 134.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 136.
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 13
-4.
+6.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -528,50 +528,50 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 13
-4.
+6.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 13
-4.
+6.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 13
-4.
+6.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 134.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 136.
 
 
 (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 134.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 136.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <9> not available
-(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 134.
+(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 136.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
 
-<f.pdf, id=38, 237.88875pt x 335.00156pt>
+<f.pdf, id=42, 237.88875pt x 335.00156pt>
 File: f.pdf Graphic file (type pdf)
  <use f.pdf>
-Package pdftex.def Info: f.pdf used on input line 152.
+Package pdftex.def Info: f.pdf used on input line 155.
 (pdftex.def)             Requested size: 180.70874pt x 254.49136pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -581,30 +581,30 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 196.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 199.
 
-<e1.pdf, id=56, 473.77pt x 326.21875pt>
+<e1.pdf, id=60, 473.77pt x 326.21875pt>
 File: e1.pdf Graphic file (type pdf)
  <use e1.pdf>
-Package pdftex.def Info: e1.pdf used on input line 216.
+Package pdftex.def Info: e1.pdf used on input line 219.
 (pdftex.def)             Requested size: 180.70874pt x 124.42732pt.
 
-<e3.pdf, id=57, 473.77pt x 326.21875pt>
+<e3.pdf, id=61, 473.77pt x 326.21875pt>
 File: e3.pdf Graphic file (type pdf)
  <use e3.pdf>
-Package pdftex.def Info: e3.pdf used on input line 221.
+Package pdftex.def Info: e3.pdf used on input line 224.
 (pdftex.def)             Requested size: 180.70874pt x 124.42732pt.
 
-<e4.pdf, id=58, 473.77pt x 326.21875pt>
+<e4.pdf, id=62, 473.77pt x 326.21875pt>
 File: e4.pdf Graphic file (type pdf)
  <use e4.pdf>
-Package pdftex.def Info: e4.pdf used on input line 226.
+Package pdftex.def Info: e4.pdf used on input line 229.
 (pdftex.def)             Requested size: 180.70874pt x 124.42732pt.
 
-<e2.pdf, id=59, 473.77pt x 326.21875pt>
+<e2.pdf, id=63, 473.77pt x 326.21875pt>
 File: e2.pdf Graphic file (type pdf)
  <use e2.pdf>
-Package pdftex.def Info: e2.pdf used on input line 231.
+Package pdftex.def Info: e2.pdf used on input line 234.
 (pdftex.def)             Requested size: 180.70874pt x 124.42732pt.
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
@@ -613,12 +613,12 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
  [2] [3 <./e1.pdf> <./e3.pdf> <./e4.pdf> <./e2.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 []\OT1/ptm/m/n/9 (+20) A ge-netic al-go-rithm at this point would at-tempt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 \OT1/ptm/m/n/9 (+20) adding/removing/moving con-trol points, switch-ing glyphs
  []
 
@@ -633,34 +633,25 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 292.
- [4
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 292.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 295.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 295.
 
 (./template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 292.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 292.
-
-
-Package rerunfilecheck Warning: File `template.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `template.out':
-(rerunfilecheck)             Before: 064AB2CE4752349E9629B5D0CFEFE379;515
-(rerunfilecheck)             After:  0726A59C36A2D7A79D1EF95A65D421E6;560.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 292.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 295.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 295.
+Package rerunfilecheck Info: File `template.out' has not changed.
+(rerunfilecheck)             Checksum: 0726A59C36A2D7A79D1EF95A65D421E6;560.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 295.
  ) 
 Here is how much of TeX's memory you used:
- 8595 strings out of 493013
- 129551 string characters out of 6139317
- 256776 words of memory out of 5000000
- 11783 multiletter control sequences out of 15000+600000
+ 8598 strings out of 493013
+ 129597 string characters out of 6139317
+ 258118 words of memory out of 5000000
+ 11786 multiletter control sequences out of 15000+600000
  57182 words of font info for 213 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,12n,38p,970b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,38p,970b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
@@ -670,10 +661,10 @@ ype1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr
 .pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on template.pdf (4 pages, 247699 bytes).
+Output written on template.pdf (4 pages, 248816 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 150 compressed objects within 2 object streams
+ 189 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
  44 named destinations out of 1000 (max. 500000)
- 44634 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 44642 words of extra memory for PDF output out of 51595 (max. 10000000)
 

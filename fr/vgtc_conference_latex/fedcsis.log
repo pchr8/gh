@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.6.18)  9 JUL 2017 19:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.6.18)  9 JUL 2017 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -278,8 +278,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip52
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count122
-)
-No file fedcsis.aux.
+) (./fedcsis.aux)
 \openout1 = `fedcsis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
@@ -294,6 +293,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
+
 -- Lines per column: 56 (exact).
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -368,23 +368,11 @@ put line 74.
 Package natbib Warning: Citation `dotsies' on page 1 undefined on input line 77
 .
 
-
-LaTeX Warning: File `f.pdf' not found on input line 88.
-
-
-! Package pdftex.def Error: File `f.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 ... \includegraphics[width=0.75\hsize]{f.pdf}
-                                                  
-? 
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 88.
-(/usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
+<f.pdf, id=1, 237.88875pt x 335.00156pt>
+File: f.pdf Graphic file (type pdf)
+ <use f.pdf>
+Package pdftex.def Info: f.pdf used on input line 88.
+(pdftex.def)             Requested size: 189.0pt x 266.1665pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 94.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -404,70 +392,41 @@ Missing character: There is no ô in font ptmr7t!
 Package natbib Warning: Citation `reza1961introduction' on page 2 undefined on 
 input line 125.
 
-[2]
+[2 <./f.pdf>] <e1.pdf, id=20, 473.77pt x 326.21875pt>
+File: e1.pdf Graphic file (type pdf)
+ <use e1.pdf>
+Package pdftex.def Info: e1.pdf used on input line 151.
+(pdftex.def)             Requested size: 189.0pt x 130.13673pt.
 
-LaTeX Warning: File `e1.pdf' not found on input line 151.
+<e3.pdf, id=21, 473.77pt x 326.21875pt>
+File: e3.pdf Graphic file (type pdf)
+ <use e3.pdf>
+Package pdftex.def Info: e3.pdf used on input line 156.
+(pdftex.def)             Requested size: 189.0pt x 130.13673pt.
 
+<e4.pdf, id=22, 473.77pt x 326.21875pt>
+File: e4.pdf Graphic file (type pdf)
+ <use e4.pdf>
+Package pdftex.def Info: e4.pdf used on input line 161.
+(pdftex.def)             Requested size: 189.0pt x 130.13673pt.
 
-! Package pdftex.def Error: File `e1.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.151 ...includegraphics[width=0.75\hsize]{e1.pdf}
-                                                  
-? 
-
-LaTeX Warning: File `e3.pdf' not found on input line 156.
-
-
-! Package pdftex.def Error: File `e3.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.156 ...includegraphics[width=0.75\hsize]{e3.pdf}
-                                                  
-? 
-
-LaTeX Warning: File `e4.pdf' not found on input line 161.
-
-
-! Package pdftex.def Error: File `e4.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.161 ...includegraphics[width=0.75\hsize]{e4.pdf}
-                                                  
-? 
-
-LaTeX Warning: File `e2.pdf' not found on input line 166.
-
-
-! Package pdftex.def Error: File `e2.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.166 ...includegraphics[width=0.75\hsize]{e2.pdf}
-                                                  
-? 
+<e2.pdf, id=23, 473.77pt x 326.21875pt>
+File: e2.pdf Graphic file (type pdf)
+ <use e2.pdf>
+Package pdftex.def Info: e2.pdf used on input line 166.
+(pdftex.def)             Requested size: 189.0pt x 130.13673pt.
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
-[3]
 
-Package natbib Warning: Citation `hunt1995subtlety' on page 4 undefined on inpu
+
+Package natbib Warning: Citation `hunt1995subtlety' on page 3 undefined on inpu
 t line 182.
 
+[3 <./e4.pdf> <./e2.pdf> <./e1.pdf> <./e3.pdf>]
 No file fedcsis.bbl.
 
 ** Conference Paper **
@@ -485,11 +444,11 @@ Package natbib Warning: There were undefined citations.
 
 [4] (./fedcsis.aux) ) 
 Here is how much of TeX's memory you used:
- 4860 strings out of 493013
- 71313 string characters out of 6139317
- 163797 words of memory out of 5000000
- 8344 multiletter control sequences out of 15000+600000
- 35638 words of font info for 67 fonts, out of 8000000 for 9000
+ 4847 strings out of 493013
+ 71085 string characters out of 6139317
+ 159661 words of memory out of 5000000
+ 8334 multiletter control sequences out of 15000+600000
+ 35123 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,7n,32p,969b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/s
@@ -499,13 +458,12 @@ public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></
 usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/ty
-pe1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.
-pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-
-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on fedcsis.pdf (4 pages, 119518 bytes).
+pe1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.p
+fb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on fedcsis.pdf (4 pages, 250999 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 97 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -72,7 +72,7 @@
 
 %% Paper title.
 
-\title{Automatized Generation of Alphabets of Symbols}
+\title{Gesturehand: framework for rationally generating alphabets of symbols}
 
 %% This is how authors are specified in the conference style
 
@@ -88,11 +88,13 @@
 
 %% Author and Affiliation (multiple authors with multiple affiliations)
 \author{Serhii Hamotskyi\thanks{e-mail: shamotskyi@gmail.com}\\ %
-        \scriptsize Kyiv Polytechnical Institute} %
-%% \and Ed Grimley\thanks{e-mail:ed.grimley@aol.com}\\ %
-%%     \scriptsize Grimley Widgets, Inc. %
-%%\and Martha Stewart\thanks{e-mail:martha.stewart@marthastewart.com}\\ %
-%%    \parbox{1.4in}{\scriptsize \centering Martha Stewart Enterprises \\ Microsoft Research}}
+        \scriptsize National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute"\\
+\and Sergii Stirenko\\
+        \thanks{sergii.stirenko@gmail.com}
+        \scriptsize National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute"\\
+\and Yuri Gordienko\\
+        \thanks{yuri.gordienko@gmail.com}
+        \scriptsize National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute"}
 
 %% A teaser figure can be included as follows, but is not recommended since
 %% the space is now taken up by a full width abstract.
@@ -136,9 +138,10 @@
 
 The need to create writing systems has been with humankind since the dawn of time, and they always evolved based on the concrete challenges the writers faced. For example, the angular shapes of the runes are very convenient to be carved in wood or stone~\cite{williams1996origin}. The rapid increase of available mediums in the recent decades determined the need for many more alphabets, for very different use cases, such as controlling computers using touchpads, mouse gestures or eye tracking cameras.
 
-We started researching this topic by attempting to manually create a system for writing shorthand (simplified writing optimized for writing speed, not readability), and then attempting to automate the process.	 Many approaches for the manual creation of alphabets have been used, but we are not familiar with a formalized system for their generation. Manually created alphabets are usually suboptimal. For example, it might be argued that the Latin alphabet favours the writer more than the
-reader, since it evolved under the constraints of pen and paper, and those constraints are much less relevant in the computer age. Fonts which try to overcome this limitation exist~\cite{dotsies}. In a similar fashion, many systems do not use the possibilities given by the medium or context (for example multi-touch gestures), electing to base themselves on already existing (and, therefore, familiar ot the user, but suboptimal context-wise) symbols. A formalized framework or software application capable of gathering requirements, generating symbols, grading them on a set of criteria and mapping them to meanings may be able to overcome many of those limitations.
+Many approaches for the manual creation of alphabets have been used, but we are not familiar with a formalized system for their generation. Manually created alphabets are usually suboptimal. For example, it might be argued that the Latin alphabet favours the writer more than the
+reader, since it evolved under the constraints of pen and paper, and those constraints are much less relevant in the computer age. Fonts which try to overcome this limitation exist~\cite{dotsies}. In a similar fashion, many systems do not use the possibilities given by the medium or context (for example multi-touch gestures). A formalized framework or software application capable of gathering requirements, generating symbols, grading them on a set of criteria and mapping them to meanings may be able to overcome many of those limitations.
 
+In this paper, requirements for a potential shorthand
 In this paper such a framework is suggested, and a proof of concept using some of the proposed techniques is demonstrated (using the example of generating glyphs for a shorthand system, without mapping them to actual symbols). The analysis of data that is to be conveyed, the generation of symbols, their grading according to certain criteria and the analysis of resulting alphabets is discussed.
 
 \section{High-level overview}
