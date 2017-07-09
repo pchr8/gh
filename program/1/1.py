@@ -1,5 +1,4 @@
 # https://en.wikipedia.org/wiki/Dynamic_time_warping  for comparing histograms?
-# https://nbviewer.jupyter.org/github/pierre-rouanet/dtw/blob/master/simple%20example.ipynb excellent on the same topic
 
 from math import sin, cos, radians, hypot, atan2, degrees, pi
 import sys;
@@ -12,17 +11,20 @@ import seaborn
 import random;
 import cv2; #http://docs.opencv.org/2.4/modules/imgproc/doc/histograms.html?highlight=comparehist#comparehist
 import bezier
-#from scipy.spatial import ConvexHull
 
 random.seed();
 
 ###
 # {{ # SETTINGS
 ###
-numberToDraw = 100;
+
+# How many are drawn
+numberToDraw = 120;
+
+# Max number of control points in the Bezier curves
 maxControlPoints = 40; 
 
-#which part of the elementns will be considered "good": 1/thold.
+# Which part of the elementns will be considered "good". 1/thold is picked.
 thold=7;
 
 # }}
@@ -45,6 +47,7 @@ class Glyph:
 
     def getRating(self):
         rating=1000;
+
 #~Uglovatost', the less the better.
         howManyAngles=self.sumOfTurns/self.length;
         self.rating=1000-howManyAngles;
@@ -55,10 +58,10 @@ class Glyph:
 
     def getFauxHistogram(self):
         return self.fauxHistogram;
+
 # Find type of connection at the beginning and at the end
 
     def countType(self):
-
         data = self.printPoints();
 
         if round(data[0][1])==5:
@@ -241,14 +244,8 @@ sgl = sorted(glyphs, key=lambda glyph: glyph.rating) ;
 ## GET BEST GLYPHS ##
 #############
 
-#https://stackoverflow.com/questions/646644/how-to-get-last-items-of-a-list-in-python
-#good = sgl[-round(int(len(sgl)/15)):];
-#good = sgl[-round(int(len(sgl)/thold)):];
-# ^ last 1/15th of the array
-#good = sgl[:round(int(len(sgl)/thold))];
-# ^ first 1/thold values
 
-#Now let's try with probab distributions:
+# Probab. distributions
 
 howmany = int(len(sgl)/thold);
 center = len(sgl)-int(2.5*thold) #mu #Tweak
@@ -263,23 +260,13 @@ print(
 
 
 good=[];
+
 #TODO do it more nicely with weighted selection.
 
 for i in range(howmany):
     id=int(n.random.normal(center, sigma));
     print(id);
     good.append(sgl[id]);
-
-'''
-print("TESTING PROBAB ==============")
-print("GOOD:");
-for i in range(len(good)):
-    print(good[i].getRating());
-print("Out of")
-for i in range(0, len(sgl), 5):
-    print(str(i)+str(sgl[i].getRating()));
-print("</TESTING PROBAB ==============")
-'''
 
 #############
 ## COMPARE ##
@@ -319,6 +306,7 @@ print(ds);
 #############
 ## FIND SUCH SYMBOLS THAT THE SUM OF THEIR DISTANCES IS AS BIG AS POSSIBLE ##
 #############
+
 # https://stackoverflow.com/questions/43563475/find-n-symbols-as-unlike-to-each-other-as-possible-when-given-matrix-of-likene
 
 #start_time=time.time()
