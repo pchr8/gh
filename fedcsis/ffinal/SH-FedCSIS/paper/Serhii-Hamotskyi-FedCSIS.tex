@@ -30,15 +30,22 @@
 \title{Automatized Generation of Alphabets of Symbols}
 %
 %
-\author{
-\IEEEauthorblockN{Serhii Hamotskyi}
-\IEEEauthorblockA{
-    Faculty of Informatics and Computer Technology \\
-    Department of Computer Systems \\
-    Igor Sykorsky Kyiv Polytechnic Institute \\
-37, Prosp. Peremohy, Kyiv, Ukraine, 03056 \\
-Email: shamotskyi@gmail.com}
+\author{\IEEEauthorblockN{Serhii Hamotskyi\IEEEauthorrefmark{1}, Anis Rojbi\IEEEauthorrefmark{2}, Sergii Stirenko\IEEEauthorrefmark{1}, and Yuri Gordienko\IEEEauthorrefmark{1}}
+\IEEEauthorblockA{\IEEEauthorrefmark{1}Igor Sikorsky Kyiv Polytechnic Institute, Kyiv, Ukraine, Email: shamotskyi@gmail.com}
+\IEEEauthorblockA{\IEEEauthorrefmark{2}Laboratoire THIM (Technologies, Handicaps, Interfaces et Multimodalités), University Paris 8, Paris, France}
 }
+
+%%      \author{
+%%      \IEEEauthorblockN{Serhii Hamotskyi, Sergii Stirenko, Yuri Gordienko}
+%%      \IEEEauthorblockA{Igor Sikorsky Kyiv Polytechnic Institute,  \\
+%%      Kyiv, Ukraine,  \\
+%%      Email: shamotskyi@gmail.com}
+%%      \and
+%%      \IEEEauthorblockN{Anis Rojbi}
+%%      \IEEEauthorblockA{Laboratoire THIM \\
+%%      (Technologies, Handicaps, Interfaces et Multimodalités),  \\ University Paris 8, \\
+%%      Paris, France}
+%%      }
 
 % conference papers do not typically use \thanks and this command
 % is locked out in conference mode. If really needed, such as for
@@ -66,17 +73,23 @@ Email: shamotskyi@gmail.com}
 \maketitle              % typeset the title of the contribution
 
 \begin{abstract}
-In this paper, we discuss the generation of symbols (and alphabets) based on specific user requirements (medium, priorities, type of information that needs to be conveyed). A framework for the generation of alphabets is proposed, and its use for the generation of a shorthand writing system is explored. We discuss the possible use of machine learning and genetic algorithms to gather inputs for generation of such alphabets and for optimization of already generated ones. The alphabets generated using such methods may be used in very different fields, from the creation of synthetic languages and constructed scripts to the creation of sensible commands for Human-Computer Interfaces, such as mouse gestures, touchpads and eye-tracking cameras.
+In this paper, we discuss the generation of symbols (and alphabets) based on specific user requirements (medium, priorities, type of information that needs to be conveyed). A framework for the generation of alphabets is proposed, and its use for the generation of a shorthand writing system is explored. We discuss the possible use of machine learning and genetic algorithms to gather inputs for generation of such alphabets and for optimization of already generated ones.
+The alphabets generated using such methods may be used in very different fields, from the creation of synthetic languages and constructed scripts to the creation of sensible commands for multimodal interaction through Human-Computer Interfaces, such as mouse gestures, touchpads, body gestures, eye-tracking cameras, and brain-computing Interfaces, especially in applications for elderly care and people with disabilities. 
 \end{abstract}
 
 \section{Introduction}
 %
-\IEEEoverridecommandlockouts\IEEEPARstart{T}{he need} to create writing systems has been with humankind since the dawn of time, and they always evolved based on the concrete challenges the writers faced. For example, the angular shapes of the runes are very convenient to be carved in wood or stone~\cite{williams1996origin}. The rapid increase of available mediums in the recent decades determined the need for many more alphabets, for very different use cases, such as controlling computers using touchpads, mouse gestures or eye tracking cameras.
+\IEEEoverridecommandlockouts\IEEEPARstart{T}{he need} to create writing systems has been with humankind since the dawn of time, and they always evolved based on the concrete challenges the writers faced. For example, the angular shapes of the runes are very convenient to be carved in wood or stone~\cite{williams1996origin}. The rapid increase of available mediums in the recent decades determined the need for many more alphabets, for very different use cases, such as controlling computers using touchpads, mouse gestures or eye tracking cameras.  It is especially important for elderly care applications~\cite{gordienko2017augmented} on the basis of the newly available information and communication technologies based on multimodal interaction through human-computer interfaces like wearable computing, augmented reality, brain-computing interfaces~\cite{stirenko2017user}, etc. 
 
 Many approaches for the manual creation of alphabets have been used, but we are not familiar with a formalized system for their generation. Manually created alphabets are usually suboptimal. For example, it might be argued that the Latin alphabet favours the writer more than the
 reader, since it evolved under the constraints of pen and paper, and those constraints are much less relevant in the computer age. Fonts which try to overcome this limitation exist~\cite{dotsies}. In a similar fashion, many systems do not use the possibilities given by the medium or context, electing to base themselves on already existing (familiar to the user, but suboptimal context-wise) symbols. A formalized framework capable of gathering requirements, generating symbols, grading them on a set of criteria and mapping them to meanings may be able to overcome many of those limitations.
 
-\section{High-level overview}
+The main aim of this paper is to propose a formalized framework capable of gathering requirements,
+generating symbols, grading them on a set of criteria and mapping them to meanings, which potentially may overcome many of these limitations. \emph{The section II. Characteristics of a Rational Alphabet} contains the short characterization of basic terms and parameters of alphabets. The section \emph{III. Requirements for the needed alphabet} includes an example description of the requirements posed for alphabets used for shorthand systems. The section \emph{IV. Generation of
+Glyphs} proposes
+a method for the generation of glyphs with examples. The section \emph{V. Evaluation of Glyphs and Alphabets} contains discussion of fitness of glyphs/alphabets in relation to machine learning methods. The section \emph{VI. Discussion and future work} dedicated to discussion of the results obtained and lessons learned. 
+
+\section{Characteristics of a rational alphabet}
 "Glyph" is defined as unique mark/symbol in a given medium. "Symbol" is defined as a glyph with a meaning attached to it. "Alphabet" is defined as a system of such symbols, including possible modifiers and conventions.
 
 Glyphs are generated and rated first, and meanings are assigned later; the alphabet as a whole is rated at the very end. This two-step process design choice is based on performance reasons (mutating individual glyphs and their meanings at the same time is too complex for any reasonably-sized alphabet) and is meant as a starting point for further research and adaptation. 
@@ -86,8 +99,6 @@ Glyphs are generated and rated first, and meanings are assigned later; the alpha
 %%              \includegraphics[width=0.60\hsize]{f.pdf}
 %%      \caption{Basic description of framework.}
 %%      \end{figure}
-
-\section{Characteristics of a rational alphabet}
 
 %% As this is a framework for the creation of alphabets in general, the goal is not to give any final recommendations about concrete alphabets, as they should be formulated individually for each alphabet.
 
@@ -112,11 +123,10 @@ For our purposes, we define comfort as "how easy and enjoyable is to use the alp
 We suggest the following metrics as starting points for future research and discussion:
 
 \subsubsection{Mental effort}
-We think that this would be best measured via existing methods. Changes in pupil size might be an especially interesting avenue in this aspect~\cite{Alns2014PupilSS}, as something objective and easy to measure.
+We think that this would be best measured via existing methods and some new methods of fatigue estimation on the basis of machine learning methods~\cite{gordienko2017ccp}. Changes in pupil size might be an especially interesting avenue in this aspect~\cite{Alns2014PupilSS}, as something objective and easy to measure.
 
 If memory is more an issue than cognitive load, than generating the alphabet in such a way so that the glyphs can be "calculated" at writing time might help; as a very example of this, when we were manually creating our shorthand system, we decided to encode 
- time, modality, and person via a single glyph consisting of three parts. Memorizing all the possible combinations would be nonsensical, but generating the glyph again mentally from its parts as it's being written is easier. 
-
+ time, modality, and person via a single glyph consisting of three parts. 
 \subsubsection{Fluency}
 Possible metrics for fluency could be:
 \begin{itemize}
@@ -155,7 +165,7 @@ Additionally,  here various memory biases and characteristics of human memory wi
 
 Ideally, the glyphs should generalize well. That means that once learned for styluses,the same alphabet shouldn't be too hard to port to other mediums without losing many of the above mentioned characteristics. Excepting changes of dimensionality (3D-gestures might be hard to port to a 2D-stylus), this is probably the hardest to quantify and account for.
 
-\section{Gathering requirements for the needed alphabet}
+\section{Requirements for the needed alphabet}
 
 Most writing systems have been heavily influenced by the constraints inherent in their area of use ---  purpose, characteristics of the information they needed to convey, materials. Even naturally evolving systems tend to converge towards local optima rather than a global optimum. Requirements and use patterns may gradually change, while the systems may be stuck in a state that is not optimal anymore. Therefore, a very careful analysis of the requirements and limitations is needed.
 
@@ -180,7 +190,7 @@ As example of applying our requirements above to our case of shorthand system, w
                 \item are there any often-repeating words or groups of words which, when replaced by a shorter, even if complex, symbol, would lead to a gain in time? ("The" as a typical example).
         \end{enumerate}
         \item On a semantic level: Are there any grammatical categories or modalities that are represented in natural text with many letters, that when replaced by a single glyph or a modifier, would lead to a gain in time? (tenses, number, gender, hypotheticals, ...). The above mentioned symbol encoding time, modality, and person, to shorten words like "they would have been able to", happened at this level of abstraction.
-        \item On an information theoretical level: How much redundancy is needed? How many errors in transcription can happen before the message becomes either unreadable or its meaning is distorted?  (Natural languages  are redundant via multiple mechanisms, notably via agreement in person, gender, case~\cite{bussmann2006routledge}... Errors or interferences will still allow to understand what’s being said, up to a certain point. This may not be the case for constructed writing systems, if they
+        \item On an information theoretical level: How much redundancy is needed? How many errors in transcription can happen before the message becomes either unreadable or its meaning is distorted?  (Natural languages  are redundant via multiple mechanisms, notably via agreement in person, gender, case... Errors or interferences will still allow to understand what’s being said, up to a certain point. This may not be the case for constructed writing systems, if they
                 are built with low redundancy.)~\cite{reza1961introduction} 
 \end{enumerate}
 
@@ -201,7 +211,7 @@ During the generation of the example glyphs, we made the following assumptions a
         \item The stroke width does not vary (as, for example, in the case of Pitman shorthand), because of the low availability of pens able to convey even two levels of thickness and of low average penmanship skill in most people. (Though using it as a third or fourth dimension would certainly be possible.)
         \item The symbols will fit into a square bounding box.
 \end{enumerate}
-For each letter, multiple glyphs are generated. The generation of glyphs starts by fixing a definite starting and ending point and then adding a semi-random number of control points. The number of control points used in the generation of the specific glyph is selected via a normal distribution, with the average number being the mean of the distribution and with standard deviation being calculated based on the maximum number of control points. Figures 1-3 are examples of glyphs generated using the above rules.
+The generation of glyphs starts by fixing a definite starting and ending point and then adding a semi-random number of control points. Figures 1-3 are examples of glyphs generated using the above rules.
 
 \begin{figure}[tbp]
 \centering
@@ -221,27 +231,17 @@ For each letter, multiple glyphs are generated. The generation of glyphs starts 
 
 \balance
 
-\section{Evaluating the fitness of the individual glyphs}
+\section{Evaluation of Glyphs and Alphabets}
 In this stage, the fitness of each glyph is determined. Many approaches are possible, and they heavily depend on the context and the medium for which the generation is being done. For our shorthand system, the main criteria were length and simplicity. The number of control points has been used as a proxy of fitness and has been partly accounted for in the generation phase (empirically, the more control points the more chaotic the glyph is). The second metric is complexity, which may be loosely
 defined as "how hard it would be to write this symbol using a pen". For our purposes, complexity is defined as \(\frac{c}{l}\), where \(c\) is the sum of the angles in the polygonal representation of the curve (informally, how curved the glyph is; the more curves there are and the sharper the individual curves are, the bigger the value is), and \(l\) is the length of the curve (a certain amount of curves on a large glyph should not be penalized as much as the same amount on a smaller one). C is calculated by converting the curve between the first adjoining control points to a polygon, summing the absolute value of the angles between all adjoining lines, and repeating the process for all the successive control points.
 \(c=\sum_{i=1}^n\sum_{j=2}^{p}L_n(j_i, j_i-1)\), where \(n\) is the number of control points,  \(p\) is the number of lines used to approximate the curve, L is the angle between two lines,  and \(j_i\) is the line after the control point \(i\). 
 
 The reasons for defining \(c\) as we did are manifold, one of them being that a very similar metric is used for evaluating the similarity of the two glyphs to each other. Much better metrics are possible.
 
-Generally, quantifying fitness of a particular glyph might make use of quite a lot of variables, for example:
-ight make use of quite a lot of variables, for example:
-\begin{itemize}
-        \item number (percentage?) of strokes which are known to be easy or hard to write (writing a stroke from upper-left to bottom-right might be harder for some people, for example, due to the right slant in their handwriting). 
-        \item how easy is a stroke to remember. This might not map perfectly to simplicity, due, for example, to characteristics of human memory like the Von Restorff effect~\cite{hunt1995subtlety}
-\end{itemize}
 	The subjective reactions to signs might vary between people, differences due to age, cultural and/or language background are probable. This might be a promising area to study with the help of machine learning. Data like "Symbols similar to X perform poorly with demographic Y" would be valuable for creating alphabets when something about the probable users is known. 
 
-Additionally, machine learning would open the doors for custom-tailored systems, where users rate some symbols and based on their feedback predictions are made about what other symbols they might like, remember and use. And, as mentioned previously, their particular use patterns might dictate different mappings of symbols to meanings (letters, actions, preferences). 
-\section{Mapping symbols to meanings}
-The first mapping of the generated glyphs, before its fitness is rated, is necessarily very tentative. At the beginning, we suggest just mapping the letters to glyphs by ordering the glyphs in decreasing order of fitness and pairing them with letters, ordered by their frequency. This would give a good starting point, which can be further improved in the next step by taking into account how easy the letters are to connect and the other requirements. 
-
-In this paper we have not touched grammatical modalities and ways to shorten them in great detail, as they would merit quite a lot more research and space (and, probably, their own paper); regardless, they would have their place at this step of the framework. 
-\section{Evaluating the fitness of an alphabet}
+Additionally, machine learning would open the doors for custom-tailored systems, where users rate some symbols and based on their feedback predictions are made about what other symbols they might like, remember and use. 
+The first mapping of the generated glyphs, before its fitness is rated, is necessarily very tentative. In this paper we have not touched grammatical modalities and ways to shorten them in great detail, as they would merit quite a lot more research and space (and, probably, their own paper); regardless, they would have their place at this step of the framework. 
 For an alphabet, our goals could be the following:
 \begin{enumerate}
         \item As much high-fitness letters as possible
@@ -264,13 +264,13 @@ and the glyphs are picked so that the above formula is maximized. (The formula a
 
 A genetic algorithm at this point would attempt adding/removing/moving control points, switching glyphs between letters, introducing mirror-distortions etc. etc.
 
-%% \section{Discussion and future work}
-%% The basic ideas of this framework can be applied for the generation of any alphabet used in the real world. For touchpads, for example, connections may be built not using three possible endings, but 2D-points on the screen instead, and multitouch and weight-sensitivity may be included in the generation. By adding dimensions, 3D-gestures alphabets may be created. Much better heuristics for fitness may be created by more precise algorithms, machine learning and use of biology and cognitive science. The approaches demonstrated here are general enough to allow an enormous amount of flexibility in the kind of alphabets they may be used to create.
-%% 	One of the more interesting avenues of further research would be creating algorithms for mapping glyphs to semantics, both to letters and to more complex grammar categories or structures. Finding (with AI?) the categories which could be shortened to one or two symbols is challenging by itself, but not all of the possible patterns found by an AI would be intuitive enough for a person to use or even to understand. 
+ \section{Discussion and future work}
+ The basic ideas of this framework can be applied for the generation of any alphabet used in the real world. For touchpads, for example, connections may be built not using three possible endings, but 2D-points on the screen instead, and multitouch and weight-sensitivity may be included in the generation. By adding dimensions, 3D-gestures alphabets may be created. Much better heuristics for fitness may be created by more precise algorithms, machine learning and use of biology and cognitive science. The approaches demonstrated here are general enough to allow an enormous amount of flexibility in the kind of alphabets they may be used to create.
+One of the more interesting avenues of further research would be creating algorithms for mapping glyphs to semantics, both to letters and to more complex grammar categories or structures. Finding (with AI?) the categories which could be shortened to one or two symbols is challenging by itself, but not all of the possible patterns found by an AI would be intuitive enough for a person to use or even to understand. 
 
-\section{Conclusion}
-In this work in progress paper, the question of generating alphabets for various purposes and mediums is discussed. Basic requirements are formulated, along with possible metrics and avenues of further research. A framework for the generation of alphabets is formulated. Elements of the proposed framework are demonstrated using the generation of symbols for a shorthand writing system. The use of source data (both source texts and experimental data) for the creation of alphabets fitting a
-certain context and the use of machine learning to build better fitness heuristics and to predict the potential fitness of glyphs is discussed. The approach shown may be used to generate alphabets for a very wide variety of methods and purposes.
+\section*{Acknowledgment}
+The work was partially supported by Ukraine-France Collaboration Project (Programme PHC DNIPRO) (http://www.campusfrance.org/fr/dnipro)
+
 \bibliographystyle{myIEEEtran}
 \bibliography{mybib}
 

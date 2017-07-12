@@ -25,10 +25,33 @@
 H.~Williams, ``The origin of the runes,'' \emph{Amsterdamer Beitr{\"a}ge zur
   {\"a}lteren Germanistik}, vol.~45, p. 211, 1996.
 
+\bibitem{gordienko2017augmented}
+\BIBentryALTinterwordspacing
+Y.~Gordienko, S.~Stirenko, O.~Alienin, K.~Skala, Z.~Soyat, and G.~J. et~al.,
+  ``Augmented coaching ecosystem for non-obtrusive adaptive personalized
+  elderly care on the basis of cloud-fog-dew computing paradigm,'' \emph{40th
+  International Convention on Information and Communication Technology,
+  Electronics and Microelectronics (MIPRO) Opatija, Croatia (2017); arXiv
+  preprint arXiv:1704.04988}, vol. abs/1704.04988, 2017. [Online]. Available:
+  \url{http://arxiv.org/abs/1704.04988}
+\BIBentrySTDinterwordspacing
+
+\bibitem{stirenko2017user}
+S.~Stirenko, Y.~Gordienko, T.~Shemsedinov, O.~Alienin, Y.~Kochura, and N.~G.
+  et~al., ``User-driven intelligent interface on the basis of multimodal
+  augmented reality and brain-computer interaction for people with functional
+  disabilities,'' \emph{arXiv preprint arXiv:1704.05915}, 2017.
+
 \bibitem{dotsies}
 \BIBentryALTinterwordspacing
 C.~Muth. Dotsies. [Online]. Available: \url{http://dotsies.org}
 \BIBentrySTDinterwordspacing
+
+\bibitem{gordienko2017ccp}
+N.Gordienko, S.Stirenko, Yu.Kochura, O.Alienin, M.Novotarskiy, and
+  Yu.Gordienko, ``Deep learning for fatigue estimation on the basis of
+  multimodal human-machine interactions,'' \emph{XXIX IUPAP Conference on
+  Computational Physics (CCP2017) Paris, France}, 2017.
 
 \bibitem{Alns2014PupilSS}
 D.~Aln{\ae}s, M.~H. Sneve, T.~Espeseth, T.~Endestad, S.~H.~P. van~de Pavert,
@@ -40,10 +63,6 @@ D.~Aln{\ae}s, M.~H. Sneve, T.~Espeseth, T.~Endestad, S.~H.~P. van~de Pavert,
 R.~R. Hunt, ``The subtlety of distinctiveness: What von restorff really did,''
   \emph{Psychonomic Bulletin \& Review}, vol.~2, no.~1, pp. 105--112, 1995.
   doi: 10.3758/BF03214414
-
-\bibitem{bussmann2006routledge}
-H.~Bussmann, \emph{Routledge dictionary of language and linguistics}.\hskip 1em
-  plus 0.5em minus 0.4em\relax Routledge, 2006.
 
 \bibitem{reza1961introduction}
 F.~M. Reza, \emph{An introduction to information theory}.\hskip 1em plus 0.5em

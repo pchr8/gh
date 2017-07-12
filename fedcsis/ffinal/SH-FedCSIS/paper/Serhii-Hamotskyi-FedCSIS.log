@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.6.18)  10 JUL 2017 02:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.6.18)  13 JUL 2017 01:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**short-fedcsis.tex
-(./short-fedcsis.tex
+**Serhii-Hamotskyi-FedCSIS.tex
+(./Serhii-Hamotskyi-FedCSIS.tex
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (./IEEEtran.cls
@@ -278,7 +278,8 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip52
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count122
-) (./short-fedcsis.aux
+)
+(./Serhii-Hamotskyi-FedCSIS.aux
 
 ! Package natbib Error: Bibliography not compatible with author-year citations.
 
@@ -289,24 +290,24 @@ See the natbib package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 ...mand\NAT@force@numbers{}\NAT@force@numbers
+l.34 ...mand\NAT@force@numbers{}\NAT@force@numbers
                                                   
 ? 
 )
-\openout1 = `short-fedcsis.aux'.
+\openout1 = `Serhii-Hamotskyi-FedCSIS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
 
 -- Lines per column: 56 (exact).
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -372,12 +373,29 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count129
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 73.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <11> on input line 73.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7.69997> on input line 73.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5.5> on input line 73.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 73.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 73.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 73.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 73.
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
 
-** ATTENTION: Overriding command lockouts (line 74).
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 99.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 99.
+** ATTENTION: Overriding command lockouts (line 82).
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -386,49 +404,67 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
  [2]
-<e1.pdf, id=20, 473.77pt x 326.21875pt>
+<e1.pdf, id=21, 473.77pt x 326.21875pt>
 File: e1.pdf Graphic file (type pdf)
  <use e1.pdf>
-Package pdftex.def Info: e1.pdf used on input line 208.
+Package pdftex.def Info: e1.pdf used on input line 218.
 (pdftex.def)             Requested size: 189.0pt x 130.13673pt.
 
-<e3.pdf, id=21, 473.77pt x 326.21875pt>
+<e3.pdf, id=22, 473.77pt x 326.21875pt>
 File: e3.pdf Graphic file (type pdf)
  <use e3.pdf>
-Package pdftex.def Info: e3.pdf used on input line 213.
+Package pdftex.def Info: e3.pdf used on input line 223.
 (pdftex.def)             Requested size: 189.0pt x 130.13673pt.
 
-<e2.pdf, id=22, 473.77pt x 326.21875pt>
+<e2.pdf, id=23, 473.77pt x 326.21875pt>
 File: e2.pdf Graphic file (type pdf)
  <use e2.pdf>
-Package pdftex.def Info: e2.pdf used on input line 218.
+Package pdftex.def Info: e2.pdf used on input line 228.
 (pdftex.def)             Requested size: 189.0pt x 130.13673pt.
 
-Overfull \vbox (2.00069pt too high) has occurred while \output is active []
+Overfull \vbox (4.80305pt too high) has occurred while \output is active []
 
 
-Overfull \vbox (10.7206pt too high) has occurred while \output is active []
+[3 <./e1.pdf> <./e3.pdf> <./e2.pdf>]
+Underfull \hbox (badness 1902) in paragraph at lines 272--273
+[]\OT1/ptm/m/n/10 The work was par-tially sup-ported by Ukraine-France
+ []
 
 
-[3 <./e3.pdf> <./e2.pdf> <./e1.pdf>] (./short-fedcsis.bbl
-Underfull \hbox (badness 1715) in paragraph at lines 40--43
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+\OT1/ptm/m/n/10 Col-lab-o-ra-tion Project (Pro-gramme PHC DNIPRO)
+ []
+
+(./Serhii-Hamotskyi-FedCSIS.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 51--55
+[]\OT1/ptm/m/n/10 N.Gordienko, S.Stirenko, Yu.Kochura, O.Alienin,
+ []
+
+
+Underfull \hbox (badness 4013) in paragraph at lines 51--55
+\OT1/ptm/m/n/10 machine in-ter-ac-tions,'' \OT1/ptm/m/it/10 XXIX IU-PAP Con-fer
+-ence on
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 63--66
 []\OT1/ptm/m/n/10 R. R. Hunt, ``The sub-tlety of dis-tinc-tive-ness: What
  []
 
 
-Underfull \hbox (badness 6364) in paragraph at lines 40--43
+Underfull \hbox (badness 6364) in paragraph at lines 63--66
 \OT1/ptm/m/n/10 von restorff re-ally did,'' \OT1/ptm/m/it/10 Psy-cho-nomic Bul-
 letin &
  []
 
 
-Underfull \hbox (badness 5490) in paragraph at lines 40--43
+Underfull \hbox (badness 5490) in paragraph at lines 63--66
 \OT1/ptm/m/it/10 Re-view\OT1/ptm/m/n/10 , vol. 2, no. 1, pp. 105--112, 1995. do
 i:
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 49--51
+Underfull \hbox (badness 1609) in paragraph at lines 68--70
 []\OT1/ptm/m/n/10 F. M. Reza, \OT1/ptm/m/it/10 An in-tro-duc-tion to in-for-ma-
 tion the-ory\OT1/ptm/m/n/10 .
  []
@@ -445,29 +481,30 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4] (./short-fedcsis.aux) ) 
+[4] (./Serhii-Hamotskyi-FedCSIS.aux) ) 
 Here is how much of TeX's memory you used:
- 4858 strings out of 493013
- 71431 string characters out of 6139317
- 158751 words of memory out of 5000000
- 8345 multiletter control sequences out of 15000+600000
- 36259 words of font info for 66 fonts, out of 8000000 for 9000
+ 4895 strings out of 493013
+ 72114 string characters out of 6139317
+ 169603 words of memory out of 5000000
+ 8376 multiletter control sequences out of 15000+600000
+ 39505 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,7n,32p,766b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}<
-/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
-pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fo
-nts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utm
-bi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/te
-xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on short-fedcsis.pdf (4 pages, 227842 bytes).
+ 39i,13n,32p,939b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/ba
+se/8r.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/
+type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a
+.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-
+dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Serhii-Hamotskyi-FedCSIS.pdf (4 pages, 238856 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 93 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
